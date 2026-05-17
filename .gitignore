@@ -1,0 +1,47 @@
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+**/build/
+gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Local config — never push
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# Generated files
+**/generated/
+**/R.java
+**/BuildConfig.java
+
+# Kotlin
+*.class
+*.kotlin_module
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Google Services (API keys)
+google-services.json
+
+# NDK
+*.so
+*.o
+
+# OS files
+Thumbs.db
+.DS_Store
