@@ -18,4 +18,13 @@ Daily Compose screen implementations — production grade UI practice.
 ---
 
 ## Day 02 — Product Detail Screen
-_Coming soon..._
+![Day 2](screenshots/day2_product_detail.png)
+
+**Concepts covered:**
+- Collapsing hero with `derivedStateOf` + `rememberScrollState`
+- `Column + verticalScroll` vs `LazyColumn`
+- `ModalBottomSheet` with `skipPartiallyExpanded`
+- `mutableStateListOf` for reactive list state
+- Fixed button overlay outside collapsing Box
+- `navigationBarsPadding` + `statusBarsPadding`
+- `coerceIn` for safe value clamping
