@@ -16,3 +16,6 @@ val OrangeAccent = Color(0xFFE05A00)
 val DarkBg = Color(0xFF1A1A2E)
 val PageBg = Color(0xFFF5F3EF)
 val StarColor = Color(0xFFF5A623)
+
+val GreenColor = Color(0xFF22C27A)
+
