@@ -28,3 +28,17 @@ Daily Compose screen implementations — production grade UI practice.
 - Fixed button overlay outside collapsing Box
 - `navigationBarsPadding` + `statusBarsPadding`
 - `coerceIn` for safe value clamping
+
+## Day 03 — Onboarding Screen
+![Day 3](screenshots/day3_onboarding.png)
+
+**Concepts covered:**
+- `HorizontalPager` + `rememberPagerState`
+- `animateColorAsState` — button & progress bar color per slide
+- `buildAnnotatedString` + `SpanStyle` — inline colored text
+- `animateScrollToPage` — programmatic pager navigation
+- Custom segmented progress bar
+- `MutableInteractionSource` + `indication = null` — ripple-free tap
+- `derivedStateOf` — recomposition optimization
+- `systemBarsPadding` — safe area handling
+- Geometric art with `Box` + `clip` + `rotate` + `offset`

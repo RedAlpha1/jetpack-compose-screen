@@ -19,3 +19,17 @@ val StarColor = Color(0xFFF5A623)
 
 val GreenColor = Color(0xFF22C27A)
 
+
+val BgDark      = Color(0xFF08080A)
+
+val Purple      = Color(0xFF7C5CFC)
+val PurpleLight = Color(0xFFB49AFF)
+val PurpleDark  = Color(0xFF5534D6)
+
+val GreenMain   = Color(0xFF00C984)
+val GreenLight  = Color(0xFF00FFB0)
+val GreenDark   = Color(0xFF005C3D)
+
+val RedMain     = Color(0xFFFF6B6B)
+val RedDark     = Color(0xFF7A1515)
+

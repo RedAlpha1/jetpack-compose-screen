@@ -1,5 +1,6 @@
 package com.learning.jetpack_compose_practice
 
+import OnboardingScreen
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -22,9 +23,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             JETPACK_COMPOSE_PRACTICETheme {
                 //FoodHomeScreen()
-                ProductDetailScreen(
-                    onBackClicked = { finish() },
-                )
+                //ProductDetailScreen(onBackClicked = { finish() },)
+                OnboardingScreen()
             }
         }
     }
